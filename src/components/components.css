@@ -1,0 +1,138 @@
+
+
+
+
+
+
+:root {
+    --white: white;
+    --black:black;
+    --green: green;
+    --dodgerBlue:dodgerBlue;
+    --skyBlue:skyblue;
+    --whitesmoke:whitesmoke; 
+    --sg:rgb(229, 238, 246);       
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color:var(--sg)
+}
+
+
+
+
+
+
+/*---------------------------CONTENT---------------------------*/
+
+
+
+.Count-Container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Count-Container-Two {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.count-header {
+    grid-area: 'counter';
+}
+
+
+
+
+.Count-Wrapper {
+    display: grid;
+    grid-template-areas: 'counter';
+    align-content: center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+
+}
+
+
+.count-header {
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.count-text {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.count-text {
+    grid-area: 'countText';
+}
+
+
+
+.Count-Wrapper-Two {
+    display: grid;
+    grid-template-areas: 'countText';
+    align-content: center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+    margin-block: 30px;
+
+}
+
+
+
+
+
+.Count-Container-Three {
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+
+
+.Count-Wrapper-Three {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-content:center;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin:0 auto;
+
+}
+
+
+
+
+.Count-Wrapper-Three button {
+    font-size: 0.8rem;
+    border:none;
+    outline:none;
+    padding:0.8rem 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 30px;
+    color:var(--skyBlue);
+    background-color:var(--black)
+}
+
