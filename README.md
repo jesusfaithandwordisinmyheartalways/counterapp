@@ -1,3 +1,30 @@
+
+OVERVIEW:
+ React-Redux - user counter app to increate, add same number , decrease , multiply and division & reset value of numbers.
+
+
+ Features
+ - Grid Layout
+ - React Redux: useSelector hook to read or select data from redux store
+ - React Redux: useDispatch hook to dispatch the actions from the redux store
+ - reducer function - take in original state & state , return new state
+ - Rexux Store- to manage the state within the counter app
+ - React Redux Provider:  to make reduz store avaiable to the components
+
+
+
+Screenshots:
+
+
+![Screenshot 2024-08-05 at 07-49-29 React App](https://github.com/user-attachments/assets/b60002fe-9ab3-4c44-be4a-98d0497dc62e)
+
+
+
+
+Contact : Andrew Johnson andrewjohnson9393@gmail.com
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
